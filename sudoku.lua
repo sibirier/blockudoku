@@ -12,12 +12,11 @@ sudoku.getNextFigures = function(count)
 		{cell(1,1), cell(1,2), cell(1,3), cell(1,4),}, -- line 5
 		{cell(1,1), cell(1,2), cell(1,3), cell(1,4), cell(1,5),}, -- line 5
 		{cell(1,1), cell(1,2), cell(2,1), cell(2,2),}, -- square
-		{cell(1,1), cell(1,2), cell(2,1), }, -- angle 2l
-		{cell(1,1), cell(1,2), cell(2,2), }, -- angle 2r
+		{cell(1,1), cell(1,2), cell(2,1), }, -- angle 2
 		{cell(1,1), cell(2,2), }, -- diag 2
 		{cell(1,1), cell(2,2), cell(3,3),}, -- giag 3
 		{cell(1,1), cell(1,2), cell(1,3), cell(2,1),}, -- angle 3-1 l
-		{cell(1,1), cell(1,2), cell(1,3), cell(2,3),}, -- angke 3-1 r
+		{cell(1,1), cell(1,2), cell(1,3), cell(2,3),}, -- angle 3-1 r
 		{cell(1,1), cell(1,2), cell(2,2), cell(2,3),}, -- z
 		{cell(1,3), cell(1,2), cell(2,2), cell(2,1),}, -- s
 		{cell(1,1), cell(1,3), cell(2,2),}, -- hollow tank
@@ -25,8 +24,7 @@ sudoku.getNextFigures = function(count)
 		{cell(1,1), cell(1,2), cell(1,3), cell(2,2), cell(3,2),}, -- long tank
 		{cell(1,1), cell(2,1), cell(2,2), cell(2,3), cell(3,2),}, -- Y l
 		{cell(1,3), cell(2,1), cell(2,2), cell(2,3), cell(3,2),}, -- Y r
-		{cell(1,1), cell(1,2), cell(1,3), cell(2,1), cell(3,1),}, -- long angle 2l
-		{cell(1,1), cell(1,2), cell(1,3), cell(2,3), cell(3,3),}, -- long angle 2r
+		{cell(1,1), cell(1,2), cell(1,3), cell(2,1), cell(3,1),}, -- long angle
 		{cell(1,1), cell(1,2), cell(1,3), cell(2,1), cell(2,3),}, -- п
 		{cell(1,1), cell(1,2), cell(1,3), cell(2,1), cell(2,3), cell(3,1), cell(3,3),}, -- П
 	}
